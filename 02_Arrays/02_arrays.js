@@ -3,7 +3,7 @@ const dc=["Spiderman","flash","batman"]
 const South_her=["Rayan","Bhairava","Krsihna"]
 const all_new_hweros=[...marvel_heros,...dc]
 //marvel_heros.push(dc)
-//nsole.log(marvel_heros[3][1]);
+//console.log(marvel_heros[3][1]);
 
 marvel_heros.concat(dc)
 console.log(marvel);
