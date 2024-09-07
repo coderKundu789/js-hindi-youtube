@@ -28,10 +28,15 @@ console.log(JsUser);
 JsUser.greeting=function(){
     console.log("Hello This is Tathagata");
 }
-
+JS.greetingTwo=function()
+{
+    console.log('Hello I am Tathagata Kundu:${this.name}');//String
+    
+}
 
 console.log(JsUser.greeting);
 console.log(JsUser.greeting());
+console.log(JsUser.greetingTwo());
 
 
 
